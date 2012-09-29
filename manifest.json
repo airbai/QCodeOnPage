@@ -1,0 +1,19 @@
+﻿{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "jquery-1.7.1.min.js","qrjquery.qrcode.js", "qrcode.js", "user.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "QR Code",
+   "icons": {
+      "128": "logo128.png",
+      "16": "logo16.png",
+      "32": "logo32.png",
+      "48": "logo.png"
+   },
+   "minimum_chrome_version": "11",
+   "name": "QR Code",
+   "version": "0.1",
+  "manifest_version": 2
+}
